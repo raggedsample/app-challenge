@@ -1,0 +1,72 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  width: 100vw;
+  height: 100vw;
+}
+
+.question-list {
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+}
+
+.question {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.question > div:first-child {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.question > div:last-child {
+  display: flex;
+  flex-direction: column;
+}
+
+.choices-list-item {
+  margin-top: 5px;
+  padding: 8px 12px;
+  border: 1px solid #d1d1d1;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.choices-list-item:hover {
+  background-color: #f0f0f0;
+}
+
+.choices-list-item.selected {
+  background-color: #4caf50; /* Adjust this to your preference */
+  color: #ffffff;
+}
+
+.survey {
+  font-family: "Arial", sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  width: 80%; /* Adjust this value based on your needs */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+
+.header {
+  text-align: center;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 20px;
+  background-color: #4caf50; /* This gives it a greenish color. Adjust as you see fit. */
+  color: #ffffff; /* White text color */
+  border-radius: 8px 8px 0 0; /* Rounded corners at the top only */
+  margin-bottom: 20px; /* Spacing between the header and the questions */
+}
